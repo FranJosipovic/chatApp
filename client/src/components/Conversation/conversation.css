@@ -1,0 +1,54 @@
+.search{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+
+.conversationRoom{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    margin: 10px 30px;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.convImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.convName{
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.conversationRoom:hover{
+    background-color: rgb(236, 233, 233);
+}
+
+.searchDiv{
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.online{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.offline{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: red;
+}

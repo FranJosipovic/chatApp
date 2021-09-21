@@ -1,0 +1,54 @@
+.messageWrapper{
+    display: flex;
+    flex-direction: column;
+    margin:10px 10px;
+}
+.iconText{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+.iconTextOwn{
+    display: flex;
+    align-self: flex-start;
+}
+.messageText{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    max-width: 300px;
+}
+
+.messageTextOwn{
+    margin-right:10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(161, 161, 164);
+    color: black;
+    max-width: 300px;
+    align-self: flex-end;
+}
+.dateOwn{
+    align-self: flex-start;
+    font-weight: 700;
+}
+.date{
+    align-self: flex-end;
+}
+
+
+.messageIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin:0 10px;
+}
+
+.messageIconOwn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    align-self: flex-end;
+}
